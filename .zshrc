@@ -39,7 +39,7 @@ alias .G="git --git-dir=$HOME/code/dotfiles.git --work-tree=$HOME/"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler git rbenv rails3)
+plugins=(brew bundler git rbenv rails3 sublime)
 
 # Customize to your needs...
 PATH="./bin:/Users/heisam/.bin:/Users/heisam/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
