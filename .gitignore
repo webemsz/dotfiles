@@ -2,6 +2,7 @@
 /*
 
 # do not ignore:
+!sublime/
 !bin/
 !.gitconfig
 !.gitignore

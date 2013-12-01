@@ -1,0 +1,10 @@
+/*
+    SublimeLinter user settings
+*/
+{
+    // If true, when the file is saved any errors will appear in a popup list
+    "sublimelinter_popup_errors_on_save": true,
+
+    // Set to true to highlight annotations
+    "sublimelinter_notes": true
+}
