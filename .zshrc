@@ -48,3 +48,4 @@ eval "$(rbenv init - --no-rehash)"
 
 source $HOME/.env
 source $ZSH/oh-my-zsh.sh
+source /opt/boxen/env.sh
