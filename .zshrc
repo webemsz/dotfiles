@@ -46,6 +46,6 @@ PATH="./bin:/Users/heisam/.bin:/Users/heisam/.rbenv/shims:/usr/local/bin:/usr/bi
 
 eval "$(rbenv init - --no-rehash)"
 
-source $HOME/.env
+source $HOME/.zshenv
 source $ZSH/oh-my-zsh.sh
 source /opt/boxen/env.sh
