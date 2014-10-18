@@ -3,7 +3,9 @@
 	[
 		"BeautifyRuby",
 		"Better CoffeeScript",
+		"BracketHighlighter",
 		"Crypto",
+		"GitGutter",
 		"Haml",
 		"Marked App Menu",
 		"RailsCasts Colour Scheme",
@@ -13,8 +15,6 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-haml",
 		"SublimeLinter-rubocop",
-		"Theme - Soda",
-		"GitGutter",
-		"BracketHighlighter"
+		"Theme - Soda"
 	]
 }
