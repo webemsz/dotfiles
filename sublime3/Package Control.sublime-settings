@@ -13,6 +13,8 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-haml",
 		"SublimeLinter-rubocop",
-		"Theme - Soda"
+		"Theme - Soda",
+		"GitGutter",
+		"BracketHighlighter"
 	]
 }
