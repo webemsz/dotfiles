@@ -1,0 +1,18 @@
+{
+	"installed_packages":
+	[
+		"BeautifyRuby",
+		"Better CoffeeScript",
+		"Crypto",
+		"Haml",
+		"Marked App Menu",
+		"RailsCasts Colour Scheme",
+		"RubyTest",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-haml",
+		"SublimeLinter-rubocop",
+		"Theme - Soda"
+	]
+}
