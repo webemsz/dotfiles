@@ -1,6 +1,8 @@
 [user]
-  name = Heiner Sameisky
-  email = hei.sam@gmail.com
+  name = <%= ENV['GIT_NAME'] %>
+  email = <%= ENV['GIT_EMAIL'] %>
+[github]
+  user = <%= ENV['GITHUB_USER'] %>
 
 [color]
   diff = auto
@@ -28,9 +30,10 @@
 
 [core]
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-  excludesfile = /Users/tadej/.gitignore-global
+  excludesfile = /Users/heisam/.gitignore-global
+	editor = subl -n -w
 
-[alias] 
+[alias]
   st = status
   ci = commit
   co = checkout
@@ -56,3 +59,7 @@
 
 [pivotal-tracker]
   token = PIVOTAL_TOKEN
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
