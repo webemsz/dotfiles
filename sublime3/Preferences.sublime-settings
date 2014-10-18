@@ -1,6 +1,7 @@
 {
   "color_scheme": "Packages/User/Monokai (SL).tmTheme",
   "ensure_newline_at_eof_on_save": true,
+  "font_face": "Source Code Pro",
   "font_size": 16,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
