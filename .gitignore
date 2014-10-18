@@ -1,12 +1,19 @@
 # ignore all by default
 /*
+/sublime3/User/*
 
 # do not ignore:
-!sublime/
+!sublime3/User/*.sublime-settings
+!sublime3/User/*.sublime-keymap
 !bin/
-!.gitconfig
+
+!.gitconfig.erb
 !.gitignore
 !.gitignore-global
 !.irbrc
-!.zshrc
+!.pryrc
+!.irbrc
 !.zshenv
+!.zshrc
+
+!readme.md
