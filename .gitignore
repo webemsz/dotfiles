@@ -7,6 +7,7 @@
 !sublime3/User/*.sublime-keymap
 !bin/
 
+!.gemrc
 !.gitconfig.erb
 !.gitignore
 !.gitignore-global
