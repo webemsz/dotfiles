@@ -19,6 +19,3 @@ Thumbs.db
 /log/*
 /tmp/*
 /vendor/ruby
-
-# Vim swap files
-*.s[a-w][a-z]
