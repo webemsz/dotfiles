@@ -2,23 +2,20 @@ require 'rubygems'
 require 'peridot'
 require 'dotenv/tasks'
 
-# Configuration
-ignored_files << 'readme.md' << '.gitignore' << '.DS_Store' << '.env' << 'system_defaults.sh'
-
 # $ rake dotfiles
 namespace :dotfiles do
   # $ rake dotfiles:dot
   desc 'Link dotfiles'
   task :dot do
     dotfiles.each do |f|
-      link_file(repo_file(f), home_file(f))
+      link_file(repo_file(f), home_file(File.basename(f)))
     end
   end
 
   # $ rake dotfiles:git
   desc 'Generate .gitconfig'
   task git: :dotenv do
-    generate_file(repo_file('.gitconfig.erb'), home_file('.gitconfig'))
+    generate_file(repo_file('home/.gitconfig.erb'), home_file('.gitconfig'))
   end
 
   # $ rake dotfiles:sublime
@@ -40,5 +37,5 @@ def sublime_configuration_files
 end
 
 def dotfiles
-  Dir['.*'].reject { |file| File.directory?(file) or ignored?(file) }
+  Dir['home/.*'].reject { |file| File.directory?(file) }
 end

@@ -3,23 +3,26 @@
 Manage configuration files for:
 
 * zsh
+* irb
 * pry
 * git
-* sublimetext3
+* sublime text 3
+
+And set OS X system defaults.
 
 ## Installation
 
 1. Install [Peridot](https://github.com/svenwin/peridot) via:
 
-   ```bash
-   $ gem install peridot
-   ```
+```bash
+$ gem install peridot
+```
 
 2. clone repository via:
 
-   ```bash
-   $ git clone https://github.com/heisam/dotfiles.git
-   ```
+```bash
+$ git clone https://github.com/heisam/dotfiles.git
+```
 
 3. Set your personal Git settings:
 
