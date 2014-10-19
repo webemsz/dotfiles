@@ -3,7 +3,7 @@ require 'peridot'
 require 'dotenv/tasks'
 
 # Configuration
-ignored_files << 'readme.md' << '.gitignore' << '.DS_Store' << '.env'
+ignored_files << 'readme.md' << '.gitignore' << '.DS_Store' << '.env' << 'system_defaults.sh'
 
 # $ rake dotfiles
 namespace :dotfiles do

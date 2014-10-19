@@ -29,6 +29,8 @@ Tested on OS X Mavericks (10.9)
 
 ## Usage
 
+**IMPORTANT** These tasks will replace your current config files without warning!
+
 ```bash
 $ rake -T
 
@@ -37,4 +39,10 @@ rake dotfiles:dot        # Link dotfiles
 rake dotfiles:git        # Generate .gitconfig
 rake dotfiles:sublime    # Link Sublime configuration files
 rake watch               # Watches for changes and reruns rake
+```
+
+To set OS X System defaults run
+
+```bash
+./system_defaults.sh
 ```
