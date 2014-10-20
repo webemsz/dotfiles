@@ -8,7 +8,11 @@ Manage configuration files for:
 * git
 * sublime text 3
 
-And set OS X system defaults.
+and set OS X system defaults.
+
+## Requirements
+
+Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.0)
 
 ## Installation
 
@@ -27,8 +31,6 @@ And set OS X system defaults.
 3. Set your personal Git settings:
 
   copy example.env to .env and fill in information
-
-Tested on OS X Mavericks (10.9)
 
 ## Usage
 
@@ -49,3 +51,7 @@ To set OS X System defaults run
 ```bash
 ./system_defaults.sh
 ```
+
+## License
+
+These dotfiles are released under the [MIT License](http://opensource.org/licenses/MIT).
