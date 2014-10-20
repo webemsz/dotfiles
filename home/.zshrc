@@ -38,18 +38,5 @@ ZSH_THEME="superjarin"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(brew bundler dirhistory Forklift gem git osx rails rbenv sublime)
 
-# Customize to your needs...
-PATH="./bin:/Users/heisam/.bin:/Users/heisam/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
-
-eval "$(rbenv init - --no-rehash)"
-
 source $HOME/.zshenv
 source $ZSH/oh-my-zsh.sh
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-export PATH="/usr/local/sbin:$PATH"
-
-export LC_CTYPE=de_DE.UTF-8
-export LC_ALL=de_DE.UTF-8
