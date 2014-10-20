@@ -2,6 +2,8 @@ require 'rubygems'
 require 'peridot'
 require 'dotenv/tasks'
 
+ignored_files << '.gitconfig.erb'
+
 # $ rake dotfiles
 namespace :dotfiles do
   # $ rake dotfiles:dot
@@ -37,5 +39,5 @@ def sublime_configuration_files
 end
 
 def dotfiles
-  Dir['home/.*'].reject { |file| File.directory?(file) }
+  Dir['home/.*'].reject { |file| File.directory?(file) or ignored?(file) }
 end
