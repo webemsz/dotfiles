@@ -10,8 +10,6 @@ export PATH="./bin:$HOME/.bin:$HOME/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/u
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-export PATH="/usr/local/sbin:$PATH"
-
 # load rbenv if available
 if which rbenv &>/dev/null ; then
   eval "$(rbenv init - --no-rehash)"
