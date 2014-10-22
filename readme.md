@@ -18,19 +18,22 @@ Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See detailed [man
 
 1. Install [Peridot](https://github.com/svenwin/peridot) via:
 
-  ```bash
-  $ gem install peridot
-  ```
+    ```bash
+    $ gem install peridot
+    ```
 
 2. clone repository via:
 
-  ```bash
-  $ git clone https://github.com/heisam/dotfiles.git
-  ```
+    ```bash
+    $ git clone https://github.com/heisam/dotfiles.git
+    ```
 
 3. Set your personal Git settings:
 
-  copy example.env to .env and fill in information
+    ```bash
+    $ cp example.env .env
+    ```
+    and fill in required information
 
 ## Usage
 
