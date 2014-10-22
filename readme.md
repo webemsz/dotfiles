@@ -39,17 +39,17 @@ Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See detailed [man
 ```bash
 $ rake -T
 
-rake dotfiles            # Runs all your task in the dotfiles namespace
-rake dotfiles:dot        # Link dotfiles
-rake dotfiles:git        # Generate .gitconfig
-rake dotfiles:sublime    # Link Sublime configuration files
-rake watch               # Watches for changes and reruns rake
+$ rake dotfiles            # Runs all your task in the dotfiles namespace
+$ rake dotfiles:dot        # Link dotfiles
+$ rake dotfiles:git        # Generate .gitconfig
+$ rake dotfiles:sublime    # Link Sublime configuration files
+$ rake watch               # Watches for changes and reruns rake
 ```
 
 To set OS X System defaults run
 
 ```bash
-./system_defaults.sh
+$ ./system_defaults.sh
 ```
 
 ## License

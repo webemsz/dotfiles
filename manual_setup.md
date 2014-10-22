@@ -3,45 +3,45 @@
 ## Command Line Tools
 
 ```bash
-xcode-select --install
+$ xcode-select --install
 ```
 
 ## Homebrew
 
 ```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew doctor
 ```
 
 ## Rbenv and Ruby
 
 ```bash
-brew install rbenv ruby-build rbenv-gem-rehash
+$ brew install rbenv ruby-build rbenv-gem-rehash
 ```
 
 Add rbenv to bash
 
 ```bash
-echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-source ~/.bash_profile
+$ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+$ source ~/.bash_profile
 ```
 
 Install Ruby 2.1.3 and set it as the default version
 
 ```bash
-rbenv install 2.1.3
-rbenv global 2.1.3
+$ rbenv install 2.1.3
+$ rbenv global 2.1.3
 
-ruby -v
+$ ruby -v
 # ruby 2.1.3
 ```
 
 ## Zsh
 
 ```bash
-brew install zsh
-chsh -s /usr/local/bin/zsh
-curl -L http://install.ohmyz.sh | sh
+$ brew install zsh
+$ chsh -s /usr/local/bin/zsh
+$ curl -L http://install.ohmyz.sh | sh
 ```
 
 ## Download and install Source Code Pro font
@@ -51,13 +51,13 @@ curl -L http://install.ohmyz.sh | sh
 ## Requirements for SublimeLinter-*
 
 ```bash
-gem install scss-lint
-gem install rubocop
-gem install haml
+$ gem install scss-lint
+$ gem install rubocop
+$ gem install haml
 
-brew install node
-npm install -g jshint
-npm install -g coffeelint
+$ brew install node
+$ npm install -g jshint
+$ npm install -g coffeelint
 ```
 
 ## Optional
@@ -69,7 +69,7 @@ npm install -g coffeelint
 2. Install pg-Gem
 
 ```bash
-gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config
+$ gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config
 ```
 
 ### Mysql
@@ -78,11 +78,11 @@ gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/
 2. Install MySql
 
 ```bash
-brew install mysql
+$ brew install mysql
 ```
 
 ### Other usefull packages
 
 ```bash
-brew install imagemagick qt graphviz
+$ brew install imagemagick qt graphviz
 ```
