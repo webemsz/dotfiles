@@ -12,7 +12,7 @@ and set OS X system defaults.
 
 ## Requirements
 
-Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.0)
+Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See [manual setup instructions](manual_setup.md)
 
 ## Installation
 
