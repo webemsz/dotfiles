@@ -12,7 +12,7 @@ and set OS X system defaults.
 
 ## Requirements
 
-Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See [manual setup instructions](manual_setup.md)
+Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See detailed [manual setup instructions](manual_setup.md).
 
 ## Installation
 
@@ -34,7 +34,7 @@ Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See [manual setup
 
 ## Usage
 
-**IMPORTANT** These tasks will replace your current config files without warning!
+**IMPORTANT** These tasks will replace your existing config files without warning!
 
 ```bash
 $ rake -T
