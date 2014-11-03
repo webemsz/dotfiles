@@ -40,3 +40,6 @@ plugins=(brew bundler dirhistory Forklift gem git osx rails rbenv sublime)
 
 source $HOME/.zshenv
 source $ZSH/oh-my-zsh.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

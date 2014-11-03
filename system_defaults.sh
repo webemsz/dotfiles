@@ -104,15 +104,15 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Top Right Corner → Mission Control
 defaults write com.apple.dock wvous-tr-corner -int 2
-defaults write com.apple.dock wvous-tr-modifier -int 0
+defaults write com.apple.dock wvous-tr-modifier -int 262144 # ctrl
 
 # Top left Corner → Application windows
 defaults write com.apple.dock wvous-tl-corner -int 3
-defaults write com.apple.dock wvous-tl-modifier -int 0
+defaults write com.apple.dock wvous-tl-modifier -int 262144 # ctrl
 
 # Bottom Right Corner → Desktop
 defaults write com.apple.dock wvous-br-corner -int 4
-defaults write com.apple.dock wvous-br-modifier -int 0
+defaults write com.apple.dock wvous-br-modifier -int 262144 # ctrl
 
 # Bottom left Corner → Put display to sleep
 defaults write com.apple.dock wvous-bl-corner -int 5
