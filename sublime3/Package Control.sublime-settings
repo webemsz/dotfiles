@@ -1,18 +1,25 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"ApplySyntax",
+		"AdvancedNewFile",
 		"BeautifyRuby",
 		"Better CoffeeScript",
 		"BracketHighlighter",
+		"Clipboard Manager",
 		"Crypto",
 		"DashDoc",
 		"Dotfiles Syntax Highlighting",
+		"Emmet",
 		"GitGutter",
 		"Haml",
 		"Markdown Extended",
 		"Marked App Menu",
 		"Monokai Extended",
+		"Package Control",
 		"RailsCasts Colour Scheme",
 		"RubyTest",
 		"SCSS",
@@ -23,6 +30,7 @@
 		"SublimeLinter-haml",
 		"SublimeLinter-jshint",
 		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
 		"Theme - Soda"
 	]
 }

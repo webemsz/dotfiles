@@ -7,7 +7,7 @@ export LC_ALL=en_US.utf8
 # Customize to your needs...
 export PATH="./bin:$HOME/.bin:$HOME/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
-### Added by the Heroku Toolbelt
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # load rbenv if available
