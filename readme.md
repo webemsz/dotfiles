@@ -2,17 +2,14 @@
 
 Manage configuration files for:
 
-* zsh
+* bash
 * irb
-* pry
 * git
 * sublime text 3
 
-and set OS X system defaults.
-
 ## Requirements
 
-Tested on OS X Mavericks (10.9) with rbenv based Ruby (2.1.*). See detailed [manual setup instructions](manual_setup.md).
+Follow [manual setup instructions](manual_setup.md)
 
 ## Installation
 
@@ -47,12 +44,6 @@ $ rake dotfiles:dot        # Link dotfiles
 $ rake dotfiles:git        # Generate .gitconfig
 $ rake dotfiles:sublime    # Link Sublime configuration files
 $ rake watch               # Watches for changes and reruns rake
-```
-
-To set OS X System defaults run
-
-```bash
-$ ./system_defaults.sh
 ```
 
 ## License
