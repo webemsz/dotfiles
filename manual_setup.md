@@ -49,6 +49,24 @@ $ ruby -v
 # ruby 2.4.1
 ```
 
+## Java SDK
+
+*Download Java SDK from oracle and install it*
+
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+*Install maven (mvm command)*
+
+```bash
+brew install maven
+```
+
+*Install IntelliJ Idea Community Edition*
+
+```bash
+brew cask install intellij-idea-ce
+```
+
 ## bash-it
 
 ```bash
@@ -115,3 +133,11 @@ $ gem install bundler
 $ gem install byebug
 $ gem install mysql2
 ```
+
+## Change mysql config to allow more memory consumption
+
+```bash
+echo "max_allowed_packet=256M" >> /usr/local/etc/my.cnf
+mysql.server restart
+```
+
